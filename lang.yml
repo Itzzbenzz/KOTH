@@ -1,0 +1,143 @@
+PREFIX: '&8[&cKOTH&8] '
+KOTH_TOP_TITLE: '&8========> &2KOTH Top %page%/%maxpage% &8<========'
+KOTH_TOP_ENTRY: '&c%pos%. &a%player% - %captured%'
+HELP_PAGE_TITLE: '&8========> &2KOTH Help %page%/%maxpage% &8<========'
+HELP_PAGE_ENTRY: '&a%cmd% &7%desc%'
+KOTH_TIMER_FORMAT: '&eThe KOTH %koth%, currently has %time% remaining.'
+ANNOUNCE_KOTH_ON_JOIN: '&6%koth% &eis currently active on the server with &6%time%
+  &etime remaining.'
+KOTH_ENDED: '&6%player% &ehas ended &6%koth%'
+TIME_LEFT: '&6%player% (&a%team%&6) &eis controlling &6%koth% &c(%time%)'
+INVENTORY_FULL: '&cYour inventory was full, placing on the floor.'
+CAPTURED_KOTH: '&6%player% (&a%team%&6) &ehas captured &6%koth%'
+LOST_CONTROL: '&6%player% (&a%team%&6) &ehas lost control of &6%koth%'
+ATTEMPTING_CAPTURE: '&6%player% (&a%team%&6) &ehas started controlling &6%koth% &c(%time%)'
+KOTH_STARTING: '&6%player% &ehas started &6%koth% &eat &6X:%x% Y:%y% Z:%z%'
+COOLDOWN: '&cYou are on cooldown for another &e%timeleft% &cseconds.'
+CLEARED_CMDS: '&aSuccessfully cleared all reward commands for %koth%.'
+ADDED_CMD: '&aSuccessfully added %cmd% command to %koth%.'
+MAX_RUN_TIME: '&eThe KOTH &6%koth% &ehas exceeded the max run time and automatically
+  ended.'
+STARTER_ITEM_GIVEN: '&aYou have successfully given a KOTH starter item to %player%.'
+STARTER_ITEM_RECEIVED: '&aYou have successfully received a KOTH starter item from
+  %player%.'
+WAND_GIVEN: '&aYou have given the KOTH Wand to %player%.'
+WAND_RECEIVED: '&aYou have received a KOTH Wand from %player%.'
+TOGGLED_SCOREBOARD: '&aYour scoreboard is now %toggle%.'
+NEXT_SCHEDULED_NAME: '%koth%'
+NEXT_SCHEDULE: '&aStarting on %day%/%month% at %hour%:%minute%.'
+ACTIVE_STATUS: '&aKOTH is currently active!'
+NONE_ACTIVE_STATUS: '&cThere are no KOTHs active.'
+ACTIVE_NOW: '&a%koth% is currently active!'
+REGION_SELECTED: '&aYou have selected %pos% position at %x%, %y%, %z%.'
+SCHEDULED_COUNTDOWN: '&aStarting in %time%.'
+MONEY_ADDED: '&a$%amount% has just been added to your account.'
+REQUEST_TIMED_OUT: '&cYour request has timed out. Please type this command again.'
+DAY_OF_WEEK: '&8=====> &2%day% &8<====='
+STARTS_ON: '&a%koth% starts at %hour%:%minute%.'
+GUI_NEXT_PAGE: '&aNext Page'
+GUI_ACTIVE: '&7This KOTH is currently active.'
+GUI_INACTIVE: '&7This KOTH is currently NOT active.'
+AUTOMATIC_HOSTNAME: The Console
+LEADER_OFFLINE: '&aFaction leader is not currently online so you will receive rewards
+  instead.'
+REWARDS_GIVEN_TO_LEADER: '&eRewards have been given to team leader.'
+ADDED_LOOT: '&aAdded item to %koth%''s loot with a chance of %percent%.'
+ADDED_LOOT_LOCATION: '&aLoot location has been set.'
+SET_LOOT: '&aThe KOTH loot chest has been set.'
+REMOVED_LOOT_LOCATION: '&aLoot location has been removed.'
+RELOAD: '&aSuccessfully reloaded all KOTH configuration files.'
+ADDED_AUTOSTART: '&aYou created an automatic start for %koth% at %players% players,
+  with a capture time of %captime% seconds.'
+LIST_KOTHS_TITLE: '&8=====> &2Current KOTHs &8<====='
+LIST_KOTHS_ENTRY: '&7- &a%koth%'
+LIST_REGIONS_TITLE: '&8=====> &2Current Regions &8<====='
+LIST_REGIONS_ENTRY: '&7- &a%region%'
+LIST_KOTH_IDS_TITLE: '&8=====> &2%day% &8<====='
+LIST_KOTH_IDS_ENTRY: '&aScheduled ID - &e%id% &ais starting at &e%hour%:%minute% &a-
+  &e%type%'
+LEFT_CLICK_BLOCK_REMOVE: '&aPlease left click a block where would like to remove the
+  loot location.'
+LEFT_CLICK_BLOCK_ADD: '&aPlease left click a block where would like to set the loot
+  location.'
+SET_LOOT_TYPE: '&aSet reward type for %koth% to %type%.'
+REMOVED_KOTH: '&aThe KOTH %koth% has been removed.'
+REMOVED_REGION: '&aThe KOTH Region %region% has been removed.'
+REMOVED_SCHEDULE: '&aRemoved scheduled KOTH with ID: %id%'
+CLEARED_LOOT: '&aCleared all loot for %koth%.'
+KEY_RECEIVED: '&aYou have received a KOTH Key from %player%'
+KEY_GIVEN: '&aYou have given the KOTH Key to %player%.'
+TIME_NOT_SET: '&cThe time %time% doesn''t exist for %koth%.'
+TIME_ALREADY_SET: '&cThis time already exists for %koth%.'
+TIME_REMOVED: '&aYou have removed the time %time% for KOTH %koth%.'
+TIME_ADDED: '&aThe time %time% has been added for KOTH %koth%.'
+TIME_NONE_SET: '&cYou haven''t set any times for %koth%'
+TIME_LIST_SET: '&aYour times set for %koth% currently are: %times%'
+TELEPORTED: '&aYou have teleported to %koth%.'
+VERSION: '&eYou are currently using the KOTH version %version%. It is advised to always
+  use the latest version.'
+REMOVED_ALL_LOOT_LOCATIONS: '&aAll loot locations have been reset for %koth%.'
+SCHEDULED_DAILY: '&aYou have successfully scheduled the KOTH %koth% to run at %time%
+  everyday for %length% seconds (MaxRunTime: %maxruntime%).'
+SCHEDULED_DATE: '&aYou have successfully scheduled the KOTH %koth% at %time% on %day%/%month%
+  (MaxRunTime: %maxruntime%).'
+SCHEDULED_WEEKLY: '&aYou have successfully scheduled the KOTH %koth% to run at %time%
+  every week for %length% seconds (MaxRunTime: %maxruntime%).'
+RECREATED_KOTH: '&aYou have re-created the KOTH %koth%.'
+KOTH_NEXT: '&aThe next KOTH is starting at %day%/%month% at %hour%:%minute%.'
+CREATED_KOTH: '&aYou have created the KOTH %koth%.'
+CREATED_REGION: '&aYou have created the Region %region%.'
+BYPASS_MODE: '&eYour bypass mode has now been %toggle%.'
+RANDOM_SCHEDULE: '&aRandom KOTH'
+WAND_ADDED: '&eA KOTH Selection Wand has been added to your inventory.'
+KOTH_ALREADY_SET: '&cThis KOTH is already set. If you would like to remove it please
+  do /koth remove <kothname>.'
+REGION_ALREADY_SET: '&cThis Region is already set. If you would like to remove it
+  please do /koth removeregion <regionname>.'
+MINIMUM_PLAYERS: '&cThere needs to be at least %players% online to start the KOTH.'
+MUST_SPECIFY_RUNTIME: '&cYou need to specify a max run time because you are using
+  a points system.'
+MUST_SPECIFY_MAXPOINTS: '&cYou need to specify a max points because you are using
+  a points system.'
+INVALID_WORLD: '&cKOTH locations must be specified in the same world.'
+INVALID_KOTH: '&cThat KOTH does not currently exist.'
+INVALID_NUMBER: '&cYou haven''t entered a correct number.'
+INVALID_PAGE: '&cYou need to enter a correct page number.'
+INVALID_CHANCE: '&cYou have entered an incorrect value for the chance.'
+INVALID_PLAYERS: '&cYou have entered an incorrect amount of players.'
+INVALID_ID: '&cPlease enter a correct ID number. You can use /koth scheduled <KOTH>
+  to view IDs.'
+INVALID_HOUR: '&cYou have entered an incorrect value for the hour you would like the
+  KOTH to be.'
+INVALID_MINUTE: '&cYou have entered an incorrect value for the minutes you would like
+  the KOTH to be.'
+INVALID_MONTH: '&cYou have entered an incorrect value for the month you would like
+  the KOTH to be.'
+INVALID_DAY: '&cYou have entered an incorrect value for the day you would like the
+  KOTH to be.'
+INVALID_WEEKDAY: '&cYou have entered an invalid weekday: &f%validtypes%'
+INVALID_TYPE: |-
+  &cYou entered an invalid top type: &f%validtypes%
+  &aDefaulting to TEAM type...
+INVALID_TIME: '&cYou need to define a time for the KOTH to start for example 17:00.'
+INVALID_CAPTIME: '&cYou have entered an incorrect amount of capture time.'
+INVALID_LENGTH: '&cYou have entered an incorrect value for the length you would like
+  the KOTH to be.'
+INVALID_MAXRUNTIME: '&cYou have entered an incorrect value for the max run time.'
+INVALID_PLAYER: '&cThat player is currently offline.'
+INVALID_COMPATIBILITY: '&cThere is currently a compatibilty issue with OpenInv. Please
+  use the command /koth addloot <KOTH> [PERCENT].'
+INVALID_REGION: '&cThat region does not currently exist.'
+KOTH_NOT_ACTIVE: '&cThat KOTH is currently not active.'
+KOTH_CURRENTLY_ACTIVE: '&cThat KOTH is currently active. Please end it with /koth
+  end <koth>.'
+IN_GAME_ONLY: '&cThis command can only be used in-game.'
+NO_WAND: '&cYou need to select a region using the custom KOTH wand.'
+NO_ITEM_IN_HAND: '&cPlease hold the item in hand you want to add.'
+NO_KEY: '&cYou need a key to open this chest.'
+NO_CAPPER: '&aNone'
+NO_TEAM: '&aNone'
+NO_SCHEDULE: '&aNo scheduled KOTHs.'
+NO_KOTH: '&aNone'
+NO_HELP_PAGE: '&cThis number does not exist, the max help page is %maxpage%.'
+NO_PERMISSION: '&cYou do not have permission for that command'
