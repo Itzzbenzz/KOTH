@@ -186,6 +186,14 @@ public interface KOTHArena {
 	 * 
 	 */
 	String getName(boolean capitalised);
+	
+	/**
+	 * Method to set the koth name
+	 * 
+	 * @param String name
+	 * 
+	 */
+	void setName(String name);
 
 	/**
 	 * Method to save the koth to json
