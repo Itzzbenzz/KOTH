@@ -5,7 +5,7 @@ import org.bukkit.Location;
 import com.benzimmer123.koth.api.enums.EditLootAction;
 
 public interface KOTHPlayer {
-
+	
 	/**
 	 * Method to get the player name
 	 *
@@ -45,6 +45,14 @@ public interface KOTHPlayer {
 	 * 
 	 */
 	boolean hasKOTHTimeout();
+	
+	/**
+	 * Method to check if this player's koth timeout has expired
+	 *
+	 * @return boolean
+	 * 
+	 */
+	boolean hasKOTHTimeoutExpired();
 
 	/**
 	 * Method to check if this player has a koth cooldown

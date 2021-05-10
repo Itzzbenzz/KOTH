@@ -7,7 +7,8 @@ import org.bukkit.entity.Player;
 public interface KOTHArena {
 
 	/**
-	 * Method to start a koth (advised to use KOTH.getInstance().getKOTHManager().callTask() instead)
+	 * Method to start a koth (advised to use
+	 * KOTH.getInstance().getKOTHManager().callTask() instead)
 	 *
 	 * @param int maxRunTime
 	 * @param int requiredTime (use -1 if using point system)
@@ -51,7 +52,7 @@ public interface KOTHArena {
 
 	/**
 	 * Method to call capper tasks (async)
-	 */	
+	 */
 	void callCapperTasks();
 
 	/**
@@ -83,7 +84,7 @@ public interface KOTHArena {
 	 * 
 	 */
 	KOTHPoints getKOTHPoints();
-	
+
 	/**
 	 * Method to get the KOTHAutoStart object
 	 * 
@@ -91,7 +92,7 @@ public interface KOTHArena {
 	 * 
 	 */
 	KOTHAutoStart getKOTHAutoStart();
-	
+
 	/**
 	 * Method to get the KOTHLoot object
 	 * 
@@ -145,8 +146,16 @@ public interface KOTHArena {
 	 * 
 	 * @param boolean tempDisabled
 	 * 
-	 */	
+	 */
 	void setTempDisabled(boolean tempDisabled);
+
+	/**
+	 * Method to check if the koth is temporarily disabled
+	 * 
+	 * @return boolean
+	 * 
+	 */
+	boolean isTempDisabled();
 
 	/**
 	 * Method to check if the koth is active
@@ -186,7 +195,7 @@ public interface KOTHArena {
 	 * 
 	 */
 	String getName(boolean capitalised);
-	
+
 	/**
 	 * Method to set the koth name
 	 * 
