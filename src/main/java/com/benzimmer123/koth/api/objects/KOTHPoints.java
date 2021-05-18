@@ -1,8 +1,17 @@
 package com.benzimmer123.koth.api.objects;
 
+import java.util.Map;
 import java.util.UUID;
 
 public interface KOTHPoints {
+	
+	/**
+	 * Method to get all the stored names and points
+	 *
+	 * @return Map of names and points 
+	 * 
+	 */
+	Map<String, Integer> getPointsMap();
 
 	/**
 	 * Method to get the player uuid associated with the stored name
