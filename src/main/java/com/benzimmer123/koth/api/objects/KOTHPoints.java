@@ -5,22 +5,6 @@ import java.util.UUID;
 public interface KOTHPoints {
 
 	/**
-	 * Method to check if the plugin has points enabled
-	 *
-	 * @return boolean 
-	 * 
-	 */
-	boolean isEnabled();
-
-	/**
-	 * Method to check if the plugin is using teams
-	 *
-	 * @return boolean 
-	 * 
-	 */
-	boolean isTeam();
-
-	/**
 	 * Method to get the player uuid associated with the stored name
 	 *
 	 * @param String name
