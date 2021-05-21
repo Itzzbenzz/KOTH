@@ -11,7 +11,7 @@ public interface KOTHPoints {
 	 * @return Map of names and points 
 	 * 
 	 */
-	Map<String, Integer> getPointsMap();
+	Map<String, Double> getPointsMap();
 
 	/**
 	 * Method to get the player uuid associated with the stored name
@@ -46,18 +46,39 @@ public interface KOTHPoints {
 	 * @param String name
 	 * @param int amount
 	 * @param UUID uuid
+	 * @deprecated See addPoints(String name, double amount, UUID uuid)
 	 * 
 	 */
 	void addPoints(String name, int amount, UUID uuid);
+	
+	/**
+	 * Method to add points to a name, associated with a uuid
+	 *
+	 * @param String name
+	 * @param double amount
+	 * @param UUID uuid
+	 * 
+	 */
+	void addPoints(String name, double amount, UUID uuid);
 
 	/**
 	 * Method to get the amount of points from a name
 	 *
 	 * @param String name
 	 * @return int 
+	 * @deprecated See getPointsDouble
 	 * 
 	 */
 	int getPoints(String name);
+	
+	/**
+	 * Method to get the amount of points from a name
+	 *
+	 * @param String name
+	 * @return double 
+	 * 
+	 */
+	double getPointsDouble(String name);
 
 	/**
 	 * Method to sort all the stored points

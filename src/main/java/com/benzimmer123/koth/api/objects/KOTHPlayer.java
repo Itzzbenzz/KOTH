@@ -5,7 +5,7 @@ import org.bukkit.Location;
 import com.benzimmer123.koth.api.enums.EditLootAction;
 
 public interface KOTHPlayer {
-	
+
 	/**
 	 * Method to get the player name
 	 *
@@ -186,7 +186,16 @@ public interface KOTHPlayer {
 	/**
 	 * Method to check a players capturing speed
 	 *
+	 * @return double
+	 * 
+	 */
+	double getCappingSpeedDouble();
+	
+	/**
+	 * Method to check a players capturing speed
+	 *
 	 * @return int
+	 * @deprecated See getCappingSpeedDouble
 	 * 
 	 */
 	int getCappingSpeed();
