@@ -1,0 +1,132 @@
+PREFIX: '&6KOTH &r&l» '
+KOTH_TOP_TITLE: '&8========> &2Classement KOTH %page%/%maxpage% &8<========'
+KOTH_TOP_ENTRY: '&c%pos%. &a%player% - %captured%'
+HELP_PAGE_TITLE: '&8========> &2KOTH Aide %page%/%maxpage% &8<========'
+HELP_PAGE_ENTRY: '&a%cmd% &7%desc%'
+KOTH_TIMER_FORMAT: '&eLe KOTH %koth% se termine dans %time%.'
+ANNOUNCE_KOTH_ON_JOIN: '&6%koth% &eis currently active on the server with &6%time%
+  &etime remaining.'
+KOTH_ENDED: '&6%player% &ea interrompu le KOTH &6%koth%'
+TIME_LEFT: '&6%player% (&a%team%&6) &eest en train de contrôlé le KOTH &6%koth% &c(%time%)'
+INVENTORY_FULL: '&cTon inventaire est plein. Les items sont maintenant au sol.'
+CAPTURED_KOTH: '&6%player% (&a%team%&6) &ea capturé &6%koth%. Bien joué à lui !'
+LOST_CONTROL: '&6%player% (&a%team%&6) &ea perdu le contrôle du KOTH &6%koth%.'
+ATTEMPTING_CAPTURE: '&6%player% (&a%team%&6) &ea commencé à contrôlé le KOTH &6%koth%
+  &c(%time%).'
+KOTH_STARTING: '&6%player% &ea lancé le KOTH &6%koth% &eaux coordonnées suivantes;
+  &6X:%x% Y:%y% Z:%z%'
+COOLDOWN: '&cTu es encore sous cooldown pour &e%timeleft% &csecondes.'
+CLEARED_CMDS: '&aTu as bien supprimé toutes les commandes de récompenses du KOTH %koth%.'
+ADDED_CMD: '&aTu as ajouté avec succès la commande %cmd% pour le KOTH %koth%.'
+MAX_RUN_TIME: '&eLa durée maximale du KOTH &6%koth% a été atteinte. Fin provoquée. '
+STARTER_ITEM_GIVEN: '&aTu as donné avec succès une clé de démarrage à %player%.'
+STARTER_ITEM_RECEIVED: '&aTu viens de recevoir une clé de démarrage de la part de
+  %player%.'
+WAND_GIVEN: '&aTu as donné la KOTH wand à %player%.'
+WAND_RECEIVED: '&aTu as reçu la KOTH wand de la part de %player%.'
+TOGGLED_SCOREBOARD: '&aLe scoreboard est maintenant %toggle%.'
+NEXT_SCHEDULED_NAME: '%koth%'
+NEXT_SCHEDULE: '&aLe prochain KOTH est le %day%/%month% à %hour%:%minute%.'
+REGION_SELECTED: '&aTu as sélectionné la %pos% position en %x%, %y%, %z%.'
+SCHEDULED_COUNTDOWN: '&aCommence dans %time%.'
+MONEY_ADDED: '&a$%amount% ont été ajouté sur ton compte.'
+REQUEST_TIMED_OUT: '&cRequête expirée. Merci de refaire la commande.'
+STARTS_ON: '&a%koth% commence dans %hour%:%minute%.'
+GUI_NEXT_PAGE: '&aPage suivante'
+GUI_ACTIVE: '&7Ce KOTH est actuellement en cours.'
+GUI_INACTIVE: '&7Ce KOTH n''as pas encore commencé.'
+AUTOMATIC_HOSTNAME: Serveur
+LEADER_OFFLINE: '&aLe chef de ta faction n''est pas connecté. Les récompenses te sont
+  donc attribuées.'
+REWARDS_GIVEN_TO_LEADER: '&eLes récompenses ont été donné au chef de la faction.'
+ADDED_LOOT: '&aAjout de l''item dans %koth% avec un pourcentage de chance de %percent%.'
+ADDED_LOOT_LOCATION: '&aLa position des récompenses a été définie.'
+SET_LOOT: '&aLe coffre des récompenses pour le KOTH a été définie.'
+REMOVED_LOOT_LOCATION: '&aLa position des récompenses a été supprimée.'
+RELOAD: '&aLe plugin KOTH a été reload avec succès.'
+ADDED_AUTOSTART: '&aTu as crée un démarrage automatique du KOTH %koth% à %players% joueurs,
+  avec un temps de capture de %captime% secondes.'
+LIST_KOTHS_TITLE: '&8=====> &2KOTH actuels &8<====='
+LIST_KOTHS_ENTRY: '&7- &a%koth%'
+LIST_REGIONS_TITLE: '&8=====> &2Régions actuelles &8<====='
+LIST_REGIONS_ENTRY: '&7- &a%region%'
+LIST_KOTH_IDS_TITLE: '&8=====> &2%day% &8<====='
+LIST_KOTH_IDS_ENTRY: '&aID planifié - &e%id% &acommence dans &e%hour%:%minute% &a-
+  &e%type%'
+LEFT_CLICK_BLOCK: '&aMerci de faire un clique gauche sur le bloc de récompense que
+  vous souhaitez supprimé.'
+SET_LOOT_TYPE: '&aDéfinir le type de récompense pour %koth% à %type%.'
+REMOVED_KOTH: '&aLe KOTH %koth% a été supprimé.'
+REMOVED_REGION: '&aLa région du KOTH %region% a été supprimée.'
+REMOVED_SCHEDULE: '&aSuppression du KOTH planifié avec l''ID: %id%'
+CLEARED_LOOT: '&aToutes les récompenses du KOTH %koth% supprimées.'
+KEY_RECEIVED: '&aTu as reçu une clé KOTH de la part de %player%'
+KEY_GIVEN: '&aTu as donné une clé KOTH à %player%.'
+TIME_NOT_SET: '&cLa durée %time% n''est pas défini pour %koth%.'
+TIME_ALREADY_SET: '&cLa durée est déjà définie pour %koth%.'
+TIME_REMOVED: '&aTu as supprimé la durée %time% pour le KOTH %koth%.'
+TIME_ADDED: '&aLa durée %time% a été ajoutée pour le KOTH %koth%.'
+TIME_NONE_SET: '&cTu n''as pas configuré de durée pour le KOTH %koth%'
+TIME_LIST_SET: '&aLa durée définie pour le %koth% est de : %times%'
+TELEPORTED: '&aTu as été téléporté au KOTH %koth%.'
+REMOVED_ALL_LOOT_LOCATIONS: '&aLes emplacements des récompenses ont été supprimés
+  pour le KOTH %koth%.'
+SCHEDULED_DAILY: '&aTu as bien programmé le KOTH %koth% pour démarrer à %time%
+  tous les jours pour %length% secondes (MaxRunTime: %maxruntime%).'
+SCHEDULED_DATE: '&aTu as bien programmé le KOTH %koth% à %time% le %day%/%month%
+  (MaxRunTime: %maxruntime%).'
+SCHEDULED_WEEKLY: '&aTu as bien programmé le KOTH %koth% pour démarrer à %time%
+  toutes les semaines pour %length% secondes (MaxRunTime: %maxruntime%).'
+RECREATED_KOTH: '&aTu as recréer le KOTH %koth%.'
+KOTH_NEXT: '&aLe prochain KOTH démarre le %day%/%month% à %hour%:%minute%.'
+CREATED_KOTH: '&aTu as crée avec succès le KOTH %koth%.'
+CREATED_REGION: '&aTu as crée avec succès la région %region%.'
+BYPASS_MODE: '&eLe bypass mode est maintenant %toggle%.'
+RANDOM_SCHEDULE: '&aKOTH aléatoire'
+WAND_ADDED: '&eLa KOTH Wand a été ajoutée à votre inventaire.'
+KOTH_ALREADY_SET: '&cCe KOTH est déjà défini. Si tu veux le supprimer 
+  utilise /koth remove <nomdukoth>.'
+REGION_ALREADY_SET: '&cCette région est déjà définie. Si tu veux la supprimer 
+  utilise /koth removeregion <nomdelaregion>.'
+MINIMUM_PLAYERS: '&cIl doit y avoir au moins %players% joueurs en ligne pour commencer
+  un KOTH.'
+MUST_SPECIFY_RUNTIME: '&cTu dois fixer un temps maximal si tu utilises un système de points.'
+INVALID_WORLD: '&cLa location du KOTH doit être dans le même monde.'
+INVALID_KOTH: '&cCe KOTH n''existe pas.'
+INVALID_NUMBER: '&cCe nombre est invalide.'
+INVALID_PAGE: '&cCette page n''existe pas.'
+INVALID_CHANCE: '&cTu as rentré un pourcentage de chance invalide.'
+INVALID_PLAYERS: '&cTu as rentré un nombre de joueurs invalide.'
+INVALID_ID: '&cMerci d''entrer un ID valide. Utilise /koth scheduled <KOTH>
+  pour voir les IDs.'
+INVALID_HOUR: '&cTu as entré une heure invalide pour le
+  KOTH.'
+INVALID_MINUTE: '&cTu as entré une minute invalide pour le
+  KOTH.'
+INVALID_MONTH: '&cTu as entré un mois invalide pour le
+  KOTH.'
+INVALID_DAY: '&cTu as entré un KOTH invalide pour le
+  KOTH.'
+INVALID_WEEKDAY: '&cTu as rentré un jour de week-end invalide: &f%validtypes%'
+INVALID_TYPE: |-
+  &cYou entered an invalid top type: &f%validtypes%
+  &aDefaulting to TEAM type...
+INVALID_TIME: '&cTu dois rentrer un temps valide. Exemple: 17:00.'
+INVALID_CAPTIME: '&cTu as rentrer un montant invalide pour le temps de capture.'
+INVALID_LENGTH: '&cLa longueur de votre KOTH est invalide.'
+INVALID_MAXRUNTIME: '&cLa valeur de temps maximale est invalide.'
+INVALID_PLAYER: '&cCe joueur est actuellement hors-ligne.'
+INVALID_COMPATIBILITY: '&cIl y a un problème avec l''OpenInv. 
+  Utilise la commande /koth addloot <KOTH> [Pourcentage].'
+INVALID_REGION: '&cCette région n''existe pas.'
+NOT_ACTIVE: '&cCe KOTH n''est pas actif.'
+CURRENTLY_ACTIVE: '&cLe KOTH est actuellement en cours. Merci de l''arrêter avec /koth end <koth>.'
+IN_GAME_ONLY: '&cCette commande est utilisable seulement en jeu.'
+NO_WAND: '&cTu dois sélectionner une région avec la KOTH Wand.'
+NO_ITEM_IN_HAND: '&cMerci de tenir l''item que tu souhaites ajouter.'
+NO_KEY: '&cTu dois avoir une clé pour ouvrir ce coffre.'
+NO_CAPPER: ???
+NO_TEAM: ???
+NO_SCHEDULE: '&aPas de KOTH programmé.'
+NO_KOTH: '&aAucun'
+NO_PERMISSION: '&cTu n''as pas la permission pour cette commande.'

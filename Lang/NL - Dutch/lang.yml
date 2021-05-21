@@ -1,0 +1,142 @@
+PREFIX: '&8[&cKOTH&8] '
+KOTH_TOP_TITLE: '&8========> &2KOTH Top %page%/%maxpage% &8<========'
+KOTH_TOP_ENTRY: '&c%pos%. &a%player% - %captured%'
+HELP_PAGE_TITLE: '&8========> &2KOTH Help %page%/%maxpage% &8<========'
+HELP_PAGE_ENTRY: '&a%cmd% &7%desc%'
+KOTH_TIMER_FORMAT: '&eDe KOTH %koth%, heeft op dit moment nog %time% de tijd.'
+ANNOUNCE_KOTH_ON_JOIN: '&6%koth% &eis op dit moment actief op de server met nog &6%time%
+  &etijd resterend'
+KOTH_ENDED: '&6%player% &eheeft de koth beeindigd &6%koth%'
+TIME_LEFT: '&6%player% (&a%team%&6) &eheeft controle over &6%koth% &c(%time%)'
+INVENTORY_FULL: '&cJouw inventory was vol! De loot wordt gedropt op de vloer.'
+CAPTURED_KOTH: '&6%player% (&a%team%&6) &eheeft de koth &6%koth% overgenomen!'
+LOST_CONTROL: '&6%player% (&a%team%&6) &eheeft de controle verloren over de koth &6%koth%'
+ATTEMPTING_CAPTURE: '&6%player% (&a%team%&6) &eis gestart met het overnemen van &6%koth%
+  &c(%time%)'
+KOTH_STARTING: '&6%player% &eheeft de koth &6%koth% &egestart op de coordinaten &6X:%x%
+  Y:%y% Z:%z%'
+COOLDOWN: '&cJe hebt nog cooldown voor &e%timeleft% &cseconden.'
+CLEARED_CMDS: '&aSuccesvol alle reward commands verwijderd voor %koth%.'
+ADDED_CMD: '&aSuccesvol het command %cmd% toegevoegd aan %koth%.'
+MAX_RUN_TIME: '&eDe KOTH &6%koth% &eheeft zijn maximale runtijd bereikt en is automatisch
+  gestopt!'
+STARTER_ITEM_GIVEN: '&aJe hebt succesvol een KOTH starteritem gegeven aan %player%.'
+STARTER_ITEM_RECEIVED: '&aJe hebt succesvol een KOTH starteritem gekregen van %player%.'
+WAND_GIVEN: '&aJe hebt een KOTH wand gegeven aan %player%.'
+WAND_RECEIVED: '&aJe hebt een KOTH wand gekregen van %player%.'
+TOGGLED_SCOREBOARD: '&aJouw scoreboard staat nu %toggle%.'
+NEXT_SCHEDULED_NAME: '%koth%'
+NEXT_SCHEDULE: '&aStart op %day%/%month% om %hour%:%minute%.'
+ACTIVE_STATUS: '&aKOTH is op dit moment actief!'
+NONE_ACTIVE_STATUS: '&cEr zijn geen KOTHS actief!'
+ACTIVE_NOW: '&a%koth% is op dit moment actief!'
+REGION_SELECTED: '&aJe hebt %pos% geselecteerd op %x%, %y%, %z%.'
+SCHEDULED_COUNTDOWN: '&aStart in %time%.'
+MONEY_ADDED: '&a$%amount% is toegevoegd aan jouw account!'
+REQUEST_TIMED_OUT: '&cJe verzoek is verlopen. Probeer het opnieuw.'
+DAY_OF_WEEK: '&8=====> &2%day% &8<====='
+STARTS_ON: '&a%koth% start om %hour%:%minute%.'
+GUI_NEXT_PAGE: '&aVolgende pagina'
+GUI_ACTIVE: '&7Deze KOTH is op dit moment actief'
+GUI_INACTIVE: '&7Deze KOTH is op dit moment niet actief.'
+AUTOMATIC_HOSTNAME: De Console
+LEADER_OFFLINE: '&aDe Faction leider is op dit moment niet online, daarom krijg jij
+  de rewards!'
+REWARDS_GIVEN_TO_LEADER: '&eDe rewards zijn gegeven aan de teamleider.'
+ADDED_LOOT: '&aItem toegevoegd aan %koth%''s loot met een kans van %percent%.'
+ADDED_LOOT_LOCATION: '&aLoot locatie is gezet.'
+SET_LOOT: '&aDe KOTH loot kist is gezet.'
+REMOVED_LOOT_LOCATION: '&aDe loot locatie is verwijderd.'
+RELOAD: '&aSuccesvol alle KOTH configuration bestanden herladen!'
+ADDED_AUTOSTART: '&aJe hebt een automatische start toegevoegd voor %koth% bij %players%
+  spelers, met een overname tijd van %captime% seconden.'
+LIST_KOTHS_TITLE: '&8=====> &2Huidige KOTHs &8<====='
+LIST_KOTHS_ENTRY: '&7- &a%koth%'
+LIST_REGIONS_TITLE: '&8=====> &2Huidige regios &8<====='
+LIST_REGIONS_ENTRY: '&7- &a%region%'
+LIST_KOTH_IDS_TITLE: '&8=====> &2%day% &8<====='
+LIST_KOTH_IDS_ENTRY: '&aGepland ID - &e%id% &astart om &e%hour%:%minute% &a- &e%type%'
+LEFT_CLICK_BLOCK_REMOVE: '&aLinker muisknop op de plek waar je de loot wil verwijderen.'
+LEFT_CLICK_BLOCK_ADD: '&aLinker muisknop op de plek waar je de loot wil toevoegen.'
+SET_LOOT_TYPE: '&aBeloningstype van %koth% gezet naar %type%.'
+REMOVED_KOTH: '&aDe KOTH %koth% is verwijderd!'
+REMOVED_REGION: '&aDe KOTH Regio %region% is verwijderd!'
+REMOVED_SCHEDULE: '&aGeplande KOTH verwijderd met ID: %id%'
+CLEARED_LOOT: '&aAlle loot verwijderd voor %koth%.'
+KEY_RECEIVED: '&aJe hebt een KOTH key gekregen van %player%'
+KEY_GIVEN: '&aJe hebt een KOTH key gekregen van %player%.'
+TIME_NOT_SET: '&cDe tijd %time% bestaat niet voor %koth%.'
+TIME_ALREADY_SET: '&cDeze tijd bestaat al voor %koth%.'
+TIME_REMOVED: '&aJe hebt de tijd %time% verwijderd voor de KOTH %koth%.'
+TIME_ADDED: '&aDe tijd %time% is toegevoegd voor de KOTH %koth%.'
+TIME_NONE_SET: '&cJe hebt geen tijden gezet voor %koth%'
+TIME_LIST_SET: '&aJouw tijden die gezet zijn voor %koth% zijn op dit moment: %times%'
+TELEPORTED: '&aJe bent geteleporteerd naar %koth%.'
+VERSION: '&eJe gebruikt op dit moment KOTH versie %version%. Gebruik altijd de laatste
+  versie!'
+REMOVED_ALL_LOOT_LOCATIONS: '&aAlle loot locaties zijn verwijderd voor %koth%.'
+SCHEDULED_DAILY: '&aJe heb KOTH %koth% gepland om %time% elke dag voor %length% seconden
+  (Maximale looptijd: %maxruntime%).'
+SCHEDULED_DATE: '&aJe hebt succesvol de KOTH %koth% gepland om %time% op %day%/%month%
+  (Maximale looptijd: %maxruntime%).'
+SCHEDULED_WEEKLY: '&aJe hebt succesvol de KOTH %koth% gepland om %time% elke week
+  voor %length% seconden (Maximale looptijd: %maxruntime%).'
+RECREATED_KOTH: '&aJe hebt opnieuw de KOTH %koth% aangemaakt.'
+KOTH_NEXT: '&aDe volgende KOTH start op %day%/%month% om %hour%:%minute%.'
+CREATED_KOTH: '&aJe hebt succesvol de KOTH %koth% gemaakt.'
+CREATED_REGION: '&aJe hebt de regio %region% gemaakt.'
+BYPASS_MODE: '&eJouw bypass mode staat nu %toggle%.'
+RANDOM_SCHEDULE: '&aWillekeurige KOTH'
+WAND_ADDED: '&eEen KOTH selectie wand is nu in jouw inventory geplaatst.'
+KOTH_ALREADY_SET: '&cDeze KOTH is al gezet! Doe /koth remove <kothnaam>. om de KOTH
+  te verwijderen.'
+REGION_ALREADY_SET: '&cDeze regio is al reeds gezet! Doe /koth removeregion <regionaam>
+  om het te verwijderen.'
+MINIMUM_PLAYERS: '&cEr moeten minstens %players% online zijn om deze KOTH te starten.'
+MUST_SPECIFY_RUNTIME: '&cJe moet een maximale duratie aangeven omdat je met het puntensysteem
+  werkt!'
+MUST_SPECIFY_MAXPOINTS: '&cJe moet een maximaal aantal punten aangeven omdat je met
+  dit puntensysteem werkt!'
+INVALID_WORLD: '&cAlle KOTH locaties moeten in dezelfde wereld zitten.'
+INVALID_KOTH: '&cDie KOTH bestaat niet.'
+INVALID_NUMBER: '&cJe hebt geen correct nummer ingevuld.'
+INVALID_PAGE: '&cJe moet een correct paginanummer invullen.'
+INVALID_CHANCE: '&cJe hebt een incorrect kanspercentage ingevuld.'
+INVALID_PLAYERS: '&cJe hebt een incorrecte hoeveelheid spelers ingevuld.'
+INVALID_ID: '&cVoeg AUB een correct ID-nummer bij. Je kan /koth scheduled <KOTH> gebruiken
+  om deze ids te bekijken.'
+INVALID_HOUR: '&cJe hebt incorrecte gegevens achter gelaten over welk uur de KOTH
+  moet zijn!'
+INVALID_MINUTE: '&cJe hebt incorrecte gegevens achter gelaten over welke minuut de
+  KOTH moet zijn!'
+INVALID_MONTH: '&c&cJe hebt incorrecte gegevens achter gelaten over welke maand de
+  KOTH moet zijn!'
+INVALID_DAY: '&c&cJe hebt incorrecte gegevens achter gelaten over welke dag de KOTH
+  moet zijn!'
+INVALID_WEEKDAY: '&cJe hebt een incorrecte weekdag ingevuld: &f%validtypes% zijn de
+  geldige types.'
+INVALID_TYPE: |-
+  &cVerkeerd top-type gebruikt: &f%validtypes%
+  &awe doen nu automatisch TEAMS methode gebruiken.
+INVALID_TIME: '&cJe moet een tijd bepalen hoelaat de KOTH begint. Bijvoorbeeld 20:00!'
+INVALID_CAPTIME: '&cJe hebt een ongeldige overname tijd ingevuld.'
+INVALID_LENGTH: '&cJe hebt een incorrecte lengte neergezet over hoe lang de KOTH moet
+  zijn'
+INVALID_MAXRUNTIME: '&cJe hebt een incorrecte maximale looptijd neergezet.'
+INVALID_PLAYER: '&cDie speler is op dit moment offline.'
+INVALID_COMPATIBILITY: '&cEr is een samenwerkingsprobleem met Openinv. Aub gebruik
+  het command /koth addloot <KOTH> [PROCENT].'
+INVALID_REGION: '&cDie regio bestaat niet!'
+KOTH_NOT_ACTIVE: '&cDe KOTH is op dit moment niet actief.'
+KOTH_CURRENTLY_ACTIVE: '&cDie KOTH is op dit moment actief. Beindig hem met /koth
+  end <koth>.'
+IN_GAME_ONLY: '&cDit command kan alleen ingame gebruikt worden!'
+NO_WAND: '&cJe moet een regio maken met een custom KOTH wand..'
+NO_ITEM_IN_HAND: '&cHoud de KOTH wand in je hand als je een region wilt maken.'
+NO_KEY: '&cJe hebt een sleutel nodig om deze kist te openen!'
+NO_CAPPER: '&aGeen'
+NO_TEAM: '&aGeen'
+NO_SCHEDULE: '&aGeen geplande KOTHS.'
+NO_KOTH: '&aGeen'
+NO_HELP_PAGE: '&cDit nummer bestaat niet. Het maximaal aantal paginas is %maxpage%.'
+NO_PERMISSION: '&cJe hebt hier geen permissions voor!'
